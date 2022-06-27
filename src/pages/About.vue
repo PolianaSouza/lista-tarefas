@@ -11,13 +11,13 @@
             <h3>Projeto criado para treinar Vue.js e Quasar Framework</h3>
             <p>
               Nesse sistema de lista de tarefas, pude colocar em prática alguns
-              dos conhecimentos adquiridos principalmente pelas aulas de Vue.JS
+              dos conhecimentos adquiridos principalmente pelas aulas do curso de Vue.JS
               do
               <a
                 href="https://www.udemy.com/course/curso-vuejs-completo/"
                 target="_blank"
                 > <strong>Matheus Fraga</strong></a
-              > na Udemy, de Quasar Framework do canal
+              > na Udemy, e do curso de Quasar Framework do canal
               <a
                 href="https://www.youtube.com/playlist?list=PLPl81lqbj-4LDCH5nPAHjoaQPDsivSem3"
                 target="_blank"
