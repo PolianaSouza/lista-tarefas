@@ -5,6 +5,7 @@
       :rows="lista"
       :columns="columns"
       row-key="name"
+      no-data-label="Não tem tarefas adicionadas"
     >
         <template v-slot:body-cell-concluir="props">
         <q-td :props="props">
