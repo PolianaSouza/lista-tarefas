@@ -30,15 +30,14 @@
         </div>
         <q-card-actions class="absolute-bottom">
           <q-btn
-            glossy
+            unelevated
             href="https://www.linkedin.com/in/poliana-s-souza/"
             target="_blank"
           >
             Linkedin
           </q-btn>
           <q-btn
-            
-            glossy
+            unelevated
             href="https://github.com/PolianaSouza"
             target="_blank">
             Github

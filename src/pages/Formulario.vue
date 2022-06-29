@@ -28,7 +28,7 @@
       />
     </div>
       <div class="col-12">
-        <q-btn label="Adicionar" type="submit" color="teal-7" class="glossy"/>
+        <q-btn label="Adicionar" type="submit" color="teal-9"  unelevated/>
         <q-btn label="Reset" type="reset" color="teal-10" flat class="q-ml-sm" />
       </div>
     </q-form> 
@@ -66,7 +66,8 @@ export default {
       this.$q.notify({
         type: 'positive',
         position: 'top',
-        color: 'green-8',
+        color: 'teal-7',
+        timeout: 300,
         message: "Tarefa adicionada!"
       });
       console.log(this.tarefas)

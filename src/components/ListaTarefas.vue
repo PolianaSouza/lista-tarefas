@@ -8,8 +8,8 @@
     >
         <template v-slot:body-cell-concluir="props">
         <q-td :props="props">
-          <q-btn 
-            class="glossy"
+          <q-btn
+            unelevated
             color="teal-9"
             icon="task_alt"
             size="sm"
