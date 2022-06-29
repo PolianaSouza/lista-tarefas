@@ -11,9 +11,9 @@
       <q-drawer
         v-model="drawer"
         show-if-above
-        :width="200"
-        :breakpoint="400"
-        
+        :width="300"
+        :breakpoint="400" 
+        overlay     
       >
         <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; q-itemborder-right: 1px solid #ddd">
           <q-list padding>
