@@ -146,6 +146,7 @@ module.exports = configure(function (/* ctx */) {
     // https://v2.quasar.dev/quasar-cli/developing-pwa/configuring-pwa
     pwa: {
       workboxMode: 'generateSW', // or 'injectManifest'
+      workboxOptions: {skipWaiting: true, clientClaim: true},//Para atualizar em 2º plano e depois notifica o usuário da atualização.
       injectPwaMetaTags: true,
       swFilename: 'sw.js',
       manifestFilename: 'manifest.json',
